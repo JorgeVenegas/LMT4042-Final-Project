@@ -1,4 +1,13 @@
-# Drone Control Code Readme
+# Drone Control Code Simulation in Webots
+
+## Background 
+
+Today, drones have become an indispensable tool in natural disasters and emergencies. The ability to reach remote and dangerous areas inaccessible to humans and provide real-time aerial vision has enabled faster and more effective responses to natural and man-made disasters. The article will discuss the different uses of drones in emergency situations and their importance in humanitarian operations.
+
+Drones have been used in various emergency situations such as floods, earthquakes, wildfires, and landslides. In addition, drones are also used in search and rescue missions for people lost, missing, or trapped in collapsed buildings. In such cases, drones can provide search and rescue teams with high-resolution imagery so they know where to look and how to perform a rescue. In disaster mitigation, drones are also used to collect data and create accurate maps that help disaster management teams plan and coordinate actions during emergencies. Maps created by drones can show the location of survivors, affected areas, and access routes for rescue teams. In addition, drones can provide real-time information on the evolution of wildfires, helping authorities make quick and effective decisions to control the spread of fires.
+In the humanitarian sector, drones can provide logistical support, delivering supplies to remote and hard-to-reach areas where roads and bridges have been destroyed or are impassable. At the same time, drones are also used to provide medicine and food to people in hard-to-reach areas and to quickly help people in dangerous places.
+
+All in all, drones are becoming an increasingly valuable tool in the event of natural disasters and emergencies. The ability to provide real-time terrain visibility, accurate mapping, and, in some situations, supply supply has proven critical in saving lives and minimizing casualties in these situations. As drones are developed and improved, their use in disasters and emergencies is likely to continue to increase, thus ensuring more timely and effective assistance to affected populations.
 
 <img width="980" alt="image" src="https://github.com/JorgeVenegas/LMT4042-Final-Project/assets/32798923/5f94390a-b4bf-4fa8-98e8-ed5765eb01c5">
 

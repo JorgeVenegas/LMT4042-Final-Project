@@ -1,5 +1,8 @@
 # Drone Control Code Readme
 
+<img width="980" alt="image" src="https://github.com/JorgeVenegas/LMT4042-Final-Project/assets/32798923/5f94390a-b4bf-4fa8-98e8-ed5765eb01c5">
+
+
 This code is designed to control a drone's movement and navigation in a simulated environment using the Webots robotics simulation platform. The drone is equipped with various sensors, including GPS, inertial unit, and gyro, to gather information about its position, orientation, and altitude.
 
 ## Functionality

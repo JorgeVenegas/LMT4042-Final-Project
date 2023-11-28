@@ -1,0 +1,224 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+  info [
+    "This demonstration shows a DJI Mavic 2 PRO flying over a rural area."
+    "After the drone has taken off, you can control it with the keyboard of your computer."
+  ]
+  title "Project"
+  basicTimeStep 10
+  defaultDamping Damping {
+    linear 0.5
+    angular 0.5
+  }
+}
+Viewpoint {
+  orientation 0.28692268380319935 0.5575229682124959 -0.7790016132426798 1.1676251762220282
+  position -232.70123953966427 360.48030821680373 309.0526657748069
+  near 0.2
+  follow "UAV"
+  followSmoothness 0.2
+}
+TexturedBackground {
+  texture "noon_sunny_empty"
+}
+TexturedBackgroundLight {
+  luminosity 1.5
+}
+Floor {
+  translation -30 0 0
+  size 250 250
+  tileSize 6 6
+  appearance SandyGround {
+  }
+}
+Bench {
+  translation -37.38 -10.8 0
+}
+Bench {
+  translation -18.7059 -73.7791 0
+  rotation 0 0 1 -0.785395307179586
+  name "bench(8)"
+}
+Bench {
+  translation -21.8509 -89.6142 0
+  rotation 0 0 1 -3.1415853071795863
+  name "bench(10)"
+}
+StripBuilding {
+  translation -127.85 -19.75 0
+}
+StripBuilding {
+  translation -70.56 17.43 0
+  name "strip building(6)"
+}
+StripBuilding {
+  translation 10.61 -83.65 0
+  rotation 0 0 1 3.14159
+  name "strip building(8)"
+}
+StripBuilding {
+  translation 34.93 -15.27 0
+  rotation 0 0 1 3.14159
+  name "strip building(9)"
+}
+StripBuilding {
+  translation -46.86 97.11 0
+  name "strip building(7)"
+}
+StripBuilding {
+  translation -10.08 -93.61 0
+  rotation 0 0 1 1.5708
+  name "strip building(3)"
+}
+StripBuilding {
+  translation 68.3098 -11.3199 0
+  rotation 0 0 1 -3.1415853071795863
+  name "strip building(5)"
+}
+StripBuilding {
+  translation -117.19 -93.61 0
+  rotation 0 0 1 1.5708
+  name "strip building(4)"
+}
+StripBuilding {
+  translation 92.34 100.49 0
+  rotation 0 0 1 -1.5707953071795862
+  name "strip building(2)"
+}
+StripBuilding {
+  translation -127.65 123.81 0
+  name "strip building(1)"
+}
+HollowBuilding {
+  translation -140.39 0 0
+}
+HollowBuilding {
+  translation -93.1 46.6 0
+  name "hollow building(4)"
+}
+HollowBuilding {
+  translation -33.4 113.1 0
+  rotation 0 0 1 -1.5707953071795862
+  name "hollow building(1)"
+}
+HollowBuilding {
+  translation 77 -34.7 0
+  rotation 0 0 1 1.01503e-06
+  name "hollow building(2)"
+}
+HollowBuilding {
+  translation 77 -69.83 0
+  rotation 0 0 1 1.01503e-06
+  name "hollow building(3)"
+}
+ResidentialBuilding {
+  translation -81.25 109.76 0
+  rotation 0 0 1 -1.5707953071795862
+}
+ResidentialBuilding {
+  translation 2.37999 73.38 0
+  rotation 0 0 1 -1.5707953071795862
+  name "residential building(1)"
+}
+ResidentialBuilding {
+  translation -51.7599 -55.01 0
+  rotation 0 0 1 1.01503e-06
+  name "residential building(2)"
+}
+Pedestrian {
+  translation 19.114 -0.61353 1.27
+  rotation 0 0 1 -0.785395307179586
+}
+Pedestrian {
+  translation 7.2455 -0.664299 1.31
+  rotation 0 0 1 -3.1415853071795863
+  name "pedestrian(2)"
+}
+Pedestrian {
+  translation 1.71454 1.57241 1.26
+  rotation 0 0 -1 2.35619
+  name "pedestrian(5)"
+}
+Pedestrian {
+  translation 3.59931 -5.38121 1.25
+  rotation 0 0 1 1.5708
+  name "pedestrian(1)"
+}
+SquareManhole {
+  translation 0 0 -0.02
+}
+DEF Boxes Group {
+  children [
+    CardboardBox {
+      translation 1.1618 3.09115 0.2
+      rotation 0 0 -1 1.5708
+    }
+    CardboardBox {
+      translation 0.111078 3.08192 0.2
+      rotation 0 0 -1 1.309
+      name "cardboard box(17)"
+    }
+  ]
+}
+DEF Trees Group {
+  children [
+    Pine {
+      translation -38.3949 -21.9054 0
+      rotation 0 0 1 -2.6179953071795863
+      name "Tree"
+    }
+    Pine {
+      translation -24.9083 -16.1854 0
+      rotation 0 0 1 -2.6179953071795863
+      name "Tree2"
+    }
+    Pine {
+      translation -21.7707 59.13 0
+      rotation 0 0 1 3.14159
+      name "Tree3"
+    }
+    Pine {
+      translation -37.1407 71.03 0
+      rotation 0 0 1 3.14159
+      name "Tree4"
+    }
+    Pine {
+      translation -40.5787 25.1353 0
+      rotation 0 0 1 -2.6179953071795863
+      name "Tree5"
+    }
+    Pine {
+      translation -23.7226 -60.8939 0
+      name "Tree6"
+    }
+    Pine {
+      translation -22.2226 -82.3739 0
+      name "Tree7"
+    }
+    Pine {
+      translation -4.7626 -73.6939 0
+      name "Tree8"
+    }
+    Pine {
+      translation -5.3426 -42.1139 0
+      name "Tree9"
+    }
+    Pine {
+      translation -5.1429 11.9121 0
+      name "Tree10"
+    }
+  ]
+}
+Mavic2Pro {
+  translation 0 0 0.11
+  rotation 0 0 1 3.141590777218456
+  name "UAV"
+  controller "mainController"
+  cameraSlot [
+    Camera {
+      width 400
+      height 240
+      near 0.2
+    }
+  ]
+}
